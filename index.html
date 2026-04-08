@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Parkour Game PRO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="menu">
+  <h1>Parkour Game</h1>
+  <button onclick="startGame()">Start Game</button>
+</div>
+
+<canvas id="game"></canvas>
+
+<script src="levels.js"></script>
+<script src="player.js"></script>
+<script src="main.js"></script>
+
+<audio id="jumpSound" src="jump.mp3"></audio>
+<audio id="coinSound" src="coin.mp3"></audio>
+<audio id="music" src="music.mp3" loop></audio>
+
+<script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+
+</body>
+</html>
